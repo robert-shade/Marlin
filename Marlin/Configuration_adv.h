@@ -410,6 +410,8 @@
    * Settings for all BLTouch and clone probes:
    */
 
+  #define SERVO0_PIN 27
+
   // Safety: The probe needs time to recognize the command.
   //         Minimum command delay (ms). Enable and increase if needed.
   //#define BLTOUCH_DELAY 500
